@@ -1,4 +1,4 @@
-from option_chain import option_chain
+from src.option_chain import option_chain
 
 
 def test_option_chain():

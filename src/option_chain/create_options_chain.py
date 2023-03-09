@@ -1,8 +1,3 @@
-from option_chain import option_chain
-
-from greeks import futures
-
-
 def simulate_options_chain(time_to_expiry, ):
 
     """

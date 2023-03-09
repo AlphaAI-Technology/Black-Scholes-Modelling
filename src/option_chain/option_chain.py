@@ -2,6 +2,7 @@ from scipy.stats import norm
 import numpy
 
 
+# noinspection PyShadowingNames
 def option_chain(S=100.00, K=120.00, T=7, sigma=0.50, r=0.05):
     """Calculate the d1 component of the Black-Scholes PDE.
 
@@ -92,7 +93,6 @@ def option_chain(S=100.00, K=120.00, T=7, sigma=0.50, r=0.05):
     return d1, d2, call, put, put_delta, call_delta, call_theta, put_theta, gamma, vega, call_rho, put_rho
 
 
-"""
 if __name__ == '__main__':
 
     # S, K, r, sigma, T = 42, 40, 0.10, 0.2, 365/2
@@ -116,7 +116,3 @@ if __name__ == '__main__':
     print("Put Gamma is : %2.5f" % gamma)
     print("Put Vega is : %2.5f" % vega)
     print("Put Rho is : %2.5f" % put_rho)
-"""
-
-
-

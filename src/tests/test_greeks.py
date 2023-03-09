@@ -1,4 +1,4 @@
-from BlackScholes import _d1, _d2, black_scholes, delta, theta, gamma, vega, rho, futures
+from src.BlackScholes import _d1, _d2, black_scholes, delta, theta, gamma, vega, rho, futures
 
 
 def test__d1():

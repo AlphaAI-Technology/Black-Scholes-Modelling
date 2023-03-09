@@ -397,4 +397,3 @@ def futures(S, t, r, q):
     """
 
     return S * numpy.exp((r - q) * t)
-
